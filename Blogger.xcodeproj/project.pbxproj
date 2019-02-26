@@ -13,6 +13,8 @@
 		49672ED42220979D00BC2326 /* Blogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49672ED22220979D00BC2326 /* Blogger.xcdatamodeld */; };
 		49672ED62220979F00BC2326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49672ED52220979F00BC2326 /* Assets.xcassets */; };
 		49672ED92220979F00BC2326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49672ED72220979F00BC2326 /* LaunchScreen.storyboard */; };
+		49672EE12220983800BC2326 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 49672EE02220983800BC2326 /* File.rtf */; };
+		49FCDBA52225DB4000DC66D1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCDBA42225DB4000DC66D1 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		49672ED52220979F00BC2326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49672ED82220979F00BC2326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49672EDA2220979F00BC2326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49672EE02220983800BC2326 /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		49FCDBA42225DB4000DC66D1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		49672EBF2220979D00BC2326 = {
 			isa = PBXGroup;
 			children = (
+				49672EE02220983800BC2326 /* File.rtf */,
 				49672ECA2220979D00BC2326 /* Blogger */,
 				49672EC92220979D00BC2326 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				49672ECB2220979D00BC2326 /* AppDelegate.swift */,
 				49672ECD2220979D00BC2326 /* ViewController.swift */,
 				49672ECF2220979D00BC2326 /* Main.storyboard */,
+				49FCDBA42225DB4000DC66D1 /* WebViewController.swift */,
 				49672ED52220979F00BC2326 /* Assets.xcassets */,
 				49672ED72220979F00BC2326 /* LaunchScreen.storyboard */,
 				49672EDA2220979F00BC2326 /* Info.plist */,
@@ -127,6 +133,7 @@
 			files = (
 				49672ED92220979F00BC2326 /* LaunchScreen.storyboard in Resources */,
 				49672ED62220979F00BC2326 /* Assets.xcassets in Resources */,
+				49672EE12220983800BC2326 /* File.rtf in Resources */,
 				49672ED12220979D00BC2326 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				49672ECE2220979D00BC2326 /* ViewController.swift in Sources */,
 				49672ECC2220979D00BC2326 /* AppDelegate.swift in Sources */,
 				49672ED42220979D00BC2326 /* Blogger.xcdatamodeld in Sources */,
+				49FCDBA52225DB4000DC66D1 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
